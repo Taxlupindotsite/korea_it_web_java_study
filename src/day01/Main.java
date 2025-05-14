@@ -10,7 +10,10 @@ public class Main {
 /*
 깃허브 등록
 
-인텔리제이 터미널(하단)에서
+인텔리제이 터미널에서
+
++터미널 단축키 : alt+f12
++새탭 : ctrl+shift+T
 
 wq(초기로)
 
@@ -32,5 +35,7 @@ wq(초기로)
                         +원격 저장소 url확인 : git remote -v
 
 4.git push -u origin main
+
+
 
  */
