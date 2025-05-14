@@ -16,19 +16,21 @@ wq(초기로)
 
 1.git init (초기화)
 
-2.git status (굳이 안해도됨)
+                        1-2.git status (변경상태체크)
 
-3.git add .
+2.git add .
 
-4.git commit -m "init : first commit" (수정사항 반영)
+3.git commit -m "init : first commit" (수정사항 반영)
 
-5.git config user.name 'username'
-6.git config user.email 'email'
+                        (처음에만).git config user.name 'username'
+                        (처음에만).git config user.email 'email'
 
-7.git branch -M main(복사)
-8.git remote add origin https://github.com/Taxlupindotsite/korea_it_web_java_study.git
+                        git branch -M main(복사)
+                        git remote add origin https://github.com/Taxlupindotsite/korea_it_web_java_study.git
 (복사)
 
-9.git push -u origin main
+                        +원격 저장소 url확인 : git remote -v
+
+4.git push -u origin main
 
  */
