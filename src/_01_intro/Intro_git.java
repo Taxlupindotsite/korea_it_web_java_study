@@ -1,6 +1,6 @@
-package day01;
+package _01_intro;
 
-public class Main {
+public class Intro_git {
     public static void main(String[] args) {
 //        System.out.println("hello"); sout , ctrl+/ (주석처리)
         System.out.println("world");
@@ -13,7 +13,7 @@ public class Main {
 인텔리제이 터미널에서
 
 +터미널 단축키 : alt+f12
-+새탭 : ctrl+shift+T
++새 탭 : ctrl+shift+T
 
 wq(초기로)
 
