@@ -28,14 +28,12 @@ wq(초기로)
                         (처음에만).git config user.name 'username'
                         (처음에만).git config user.email 'email'
 
-                        git branch -M main(복사)
-                        git remote add origin https://github.com/Taxlupindotsite/korea_it_web_java_study.git
+                        (처음에만)git branch -M main(복사)
+                        (처음에만)git remote add origin https://github.com/Taxlupindotsite/korea_it_web_java_study.git
 (복사)
 
                         +원격 저장소 url확인 : git remote -v
 
 4.git push -u origin main
-
-
 
  */
