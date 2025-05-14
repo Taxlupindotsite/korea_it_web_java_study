@@ -17,13 +17,13 @@ public class Intro_git {
 
 wq(초기로)
 
-1.git init (초기화)
+                        (처음에만)git init (초기화)
 
                         1-2.git status (변경상태체크)
 
-2.git add .
+1.git add .
 
-3.git commit -m "init : first commit" (수정사항 반영)
+2.git commit -m "커밋 메시지" (수정사항 반영)
 
                         (처음에만).git config user.name 'username'
                         (처음에만).git config user.email 'email'
@@ -34,6 +34,6 @@ wq(초기로)
 
                         +원격 저장소 url확인 : git remote -v
 
-4.git push -u origin main
+3.git push -u origin main
 
  */
