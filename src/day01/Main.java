@@ -10,17 +10,14 @@ public class Main {
 /*
 깃허브 등록
 
-Terminal
-
-git init
-git status
-git add .
-git commit -m "init: 초기화"
+인텔리제이 터미널(하단)에서
 
 wq(초기로)
 
-1. (등록)
-git config --local user.name '(깃허브 이름)'
-git config --local user.email '(깃허브 이메일)'
+1.git init (초기화)
+
+2.git status
+
+3.
 
  */
