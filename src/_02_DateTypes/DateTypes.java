@@ -24,7 +24,7 @@ public class DateTypes {
         //실수 - float, double
         float f = 3.14f;
         //float로 지정시에는 f를 붙여야함
-        double d = 3.1234567891234565789;
+        double d = 3.123_456_789_123_456_578_9;
 
         //System.out.println(d);
 
