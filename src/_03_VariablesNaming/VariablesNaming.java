@@ -17,6 +17,12 @@ public class VariablesNaming {
         * 5. 예약어 사용 불가. (public, static, void, int, float 등등은 ㄴㄴ
         *
 
+        * boolean으로 변수명을 지을때(국룰)
+        * is, flag
+        *
+        * boolean Empty 이렇게가 아니라
+        * boolean isEmpty 이런식으로 지음
+
          */
 
         String carBrandName = "KIA";
