@@ -18,7 +18,7 @@ public class VariablesNaming {
         *
 
         * boolean으로 변수명을 지을때(국룰)
-        * is, flag
+        * is, flag를 앞에 붙임
         *
         * boolean Empty 이렇게가 아니라
         * boolean isEmpty 이런식으로 지음

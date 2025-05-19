@@ -36,7 +36,8 @@ wq(초기로)
 
 3.git push origin main
 
-
+//집에서 한거 땡겨올때
 git fetch
 git pull
+*단, 땡겨올 컴퓨터에 변경사항이 있으면 안됨.
  */
