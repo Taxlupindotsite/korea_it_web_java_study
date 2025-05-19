@@ -34,6 +34,6 @@ wq(초기로)
 
                         +원격 저장소 url확인 : git remote -v
 
-3.git push -u origin main
+3.git push origin main
 
  */
