@@ -11,11 +11,11 @@ public class ElseIf {
         //70 이상이면 "C"
         //나머지는 "D"
 
-        if(avgScore >= 90){
+        if (avgScore >= 90) {
             System.out.println("등급 : A");
-        } else if(avgScore >= 80) {
+        } else if (avgScore >= 80) {
             System.out.println("등급 : B");
-        } else if(avgScore >= 70) {
+        } else if (avgScore >= 70) {
             System.out.println("등급 : C");
         } else {
             System.out.println("등급 : D");
@@ -23,15 +23,12 @@ public class ElseIf {
 
         //앞에 참이 나온 조건이 있으면, 뒤에는 다 무시함.
 
+        //중첩 if 예제
 
-    }
-
-    //중첩 if 예제
-    public static void nestedIfExample() {
         int age = 28;
         String gender = "남성";
         if (age >= 20) {
-            if(gender.equals("남성")) {
+            if (gender.equals("남성")) {
                 System.out.println("성인 남성입니다.");
             } else {
                 System.out.println("성인 여성입니다.");
@@ -41,3 +38,4 @@ public class ElseIf {
         }
     }
 }
+
