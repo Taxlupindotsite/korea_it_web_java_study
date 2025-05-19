@@ -38,5 +38,6 @@ public class StringCompare {
         // equals는 내용물이 같냐?라는 뜻임
 
 
+
     }
 }
