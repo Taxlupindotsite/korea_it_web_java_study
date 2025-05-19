@@ -36,4 +36,7 @@ wq(초기로)
 
 3.git push -u origin main
 
+
+git fetch
+git pull
  */
