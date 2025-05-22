@@ -29,7 +29,7 @@ public class MultiArrayLoop {
         String[] eng = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"};
         for (int i = 0; i < imaxSeats.length; i++) {
             for (int j = 0; j < imaxSeats[i].length; j++) {
-                imaxSeats[i][j] = eng[i] + (j+1);
+                imaxSeats[i][j] = eng[i] + (j + 1);
 
 
             }
@@ -37,7 +37,7 @@ public class MultiArrayLoop {
 
         for (int i = 0; i < imaxSeats.length; i++) {
             for (int j = 0; j < imaxSeats[i].length; j++) {
-                System.out.print(imaxSeats[i][j]+ " ") ;
+                System.out.print(imaxSeats[i][j] + " ");
             }
             System.out.println();
         }
@@ -46,11 +46,36 @@ public class MultiArrayLoop {
         //3x3크기 , 1부터 홀수만 차례대로 대입하고 출력해서 확인
         //그 수들의 합 구하기
 
-//        135
-//       7911
-//       111517
+//       1 3 5
+//       7 9 11
+//       11 15 17
 
+        int[][] arr = new int[3][3];
+        int num = 1;
 
+        //홀수만 다 대입.
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                arr[i][j] = num;
+                num += 2;
+            }
+        }
+
+        //출력 확인.
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                sum += arr[i][j];
+            }
+        }
+        System.out.println("합계는" + sum);
 
     }
 }
