@@ -1,5 +1,7 @@
 package _21_Class.OOP;
 
+import _21_Class.Person.Person;
+
 public class OOP {
     public static void main(String[] args) {
 
@@ -14,18 +16,24 @@ public class OOP {
 //        -복잡한 내부 동작은 감추고, 꼭 필요한 기능만 보여주는 것
 
 //        2. 캡슐화
-//        - 정보 은닉.
+//        - 정보 은닉. (setter/getter)
+//        - 데이터(변수)를 보호하고, 접근을 제한하여 안정성을 높이는 것
+
+
 
 //        3. 상속
 //        4. 다형성
+        Person person = new Person();
+        System.out.println(person.name);
+//        name은 public이므로 접근이 가능
+
+//        System.out.println(person.age);
+//        age는 protected이므로, 같은 패키지 or 자식패키지가 아님 , 그래서 오류(접근불가)
+//        System.out.println(person.address);
+//        같은이유로 default이라서, 접근불가능(오류)
 
 
-//접근 제어자
 
-        //public - 어디서든 접근이 가능.
-        //default - 같은 패키지에서만 접근이 가능. (명시를 따로 하지않으면 default)
-        //protected - 같은 패키지 또는 자식 클래스에서만 접근이 가능함.
-        //private - 해당 클래스 내부에서만 접근이 가능.
 
     }
 }
