@@ -19,8 +19,6 @@ public class OOP {
 //        - 정보 은닉. (setter/getter)
 //        - 데이터(변수)를 보호하고, 접근을 제한하여 안정성을 높이는 것
 
-
-
 //        3. 상속
 //        4. 다형성
         Person person = new Person();
