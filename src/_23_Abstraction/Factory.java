@@ -14,6 +14,7 @@ public abstract class Factory {
     public Factory(String name){
         this.name = name;
     }
+
 //    추상 클래스의 추상 메소드.
     public abstract void produce(String model);
     public abstract void manage();

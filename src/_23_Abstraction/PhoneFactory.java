@@ -3,7 +3,6 @@ package _23_Abstraction;
 public class PhoneFactory extends Factory {
 // 추상 클래스를 상속받으면 반드시 재정의 해줘야함
 
-
     public PhoneFactory(String name){
         super(name);
     }
@@ -17,5 +16,7 @@ public class PhoneFactory extends Factory {
     public void manage() {
         System.out.println(getName() + "공장을 관리합니다.");
     }
+
+
 
 }

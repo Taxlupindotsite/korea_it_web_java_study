@@ -9,6 +9,7 @@ public class Main {
         phoneFactory.manage();
         phoneFactory.disPlayInfo();
 
+
         Factory factory = new Factory("애플") {
             @Override
             public void produce(String model) {
@@ -28,7 +29,18 @@ public class Main {
                     객체를 생성한 것
                     재사용 하지않고 한 번만 쓰고 버릴 거라면 익명 클래스를 사용
                     즉 임시로 만들어진 이름없는 자식클래스 == 익명클래스
-                    그러므로 추상 클래스의 객체가 만들어진것이 아니기 때문에, 추상 크랠스의 개념에 위배되는 것은 아니다.
+                    그러므로 추상 클래스의 객체가 만들어진것이 아니기 때문에, 추상 클래스의 개념에 위배되는 것은 아니다.
+
      */
+
+        TabletFactory TabletFactory = new TabletFactory("apple");
+        TabletFactory.produce("아이패드 6세대");
+        TabletFactory.upgrade("아이패드 7세대");
+
     }
+
+
+
+
+
 }
