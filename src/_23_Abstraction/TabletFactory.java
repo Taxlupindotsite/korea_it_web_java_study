@@ -26,9 +26,5 @@ public class TabletFactory extends Factory {
 
     public static void upgrade(String model){
         System.out.println(model + "로 업그레이드 되었습니다.");
-
     }
-
-
-
 }

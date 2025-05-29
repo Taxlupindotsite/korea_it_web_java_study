@@ -21,6 +21,8 @@ public class OOP {
 
 //        3. 상속
 //        4. 다형성
+
+
         Person person = new Person();
         System.out.println(person.name);
 //        name은 public이므로 접근이 가능
