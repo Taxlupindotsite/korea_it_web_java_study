@@ -59,6 +59,8 @@ public class Main {
 //        enhanced for
        for (Animal animal : animals){
            animal.speak();
+
+
        }
 
 
