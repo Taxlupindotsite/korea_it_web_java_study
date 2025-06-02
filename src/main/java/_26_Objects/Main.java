@@ -15,11 +15,8 @@ public class Main {
         System.out.println(teacher1.hashCode());
         System.out.println(teacher2.hashCode());
 
-
 //      오버라이드 값을 바꿔줬으므로 true가 나올것임.
         System.out.println(teacher1.equals(teacher2));
-
-
 
     }
 }
