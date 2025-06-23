@@ -5,6 +5,8 @@ package _35_Lambda;
 //  익명 클래스를 사용해 함수처럼 동작하는 코드
 //  => 익명 함수
 
+
+
 import java.util.Comparator;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
