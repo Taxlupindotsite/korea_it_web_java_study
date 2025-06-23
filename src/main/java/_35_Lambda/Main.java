@@ -6,6 +6,8 @@ package _35_Lambda;
 //  => 익명 함수
 
 import java.util.Comparator;
+import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 public class Main {
     public static void main(String[] args) {
@@ -60,6 +62,25 @@ Comparator<Integer> comparator = new Comparator<Integer>() {
 //    T는 매개변수 타입, R은 반환 타입
 //    Predicate - boolean test(T, t);
 //    하나의 매개변수를 받아서 특정 조건을 검사한 후 true/false를 리턴
+
+//        1.Suplplier
+     Supplier<String> stringSupplier = () -> "Hello, World";
+//        2.Consumer
+        Consumer<String> stringConsumer = (message) -> System.out.println("메시지 : " + message);
+        String message = stringSupplier.get();
+        stringConsumer.accept(message);
+
+        /*
+        익명 클래스 -> 즉석에서 해당 클래스나 인터페이스의 메소드를 재정의해서 사용
+        메소드가 하나일수도, 여러개일수도
+        람다식 -> 메소드가 하나만 있는 인터페이스를 재정의해서 사용할 때 표현식
+        () -> 한줄 코드;
+        () -> {
+                여러줄 코드
+                }
+
+         */
+
 
     }
 }
